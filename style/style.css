@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+}
+body {
+  background-color: rgba(232, 232, 232, 0.733);
+}
+.section_zakaz {
+}
+.zakaz_div h1 {
+  width: 629px;
+  height: 96px;
+  font-family: Manrope;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
