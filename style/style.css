@@ -7,14 +7,17 @@
   width: 1440px;
   margin: auto;
 }
+.flex {
+  display: flex;
+}
 body {
   background-color: rgba(232, 232, 232, 0.733);
 }
 .section_zakaz {
-    padding: 0px 0px 100px 30px;
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
+  padding: 0px 0px 100px 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
 }
 .zakaz_div h1 {
   width: 629px;
@@ -87,16 +90,66 @@ body {
 .checkboxs {
   display: flex;
 }
-.zakaz_div button{
-    width: 195px;
-height: 54px;
-border-radius: 9px;
-border: none;
-background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
-color: rgba(255, 255, 255, 1);
-font-family: Manrope;
-font-size: 16px;
-font-weight: 600;
-line-height: 26px;
-
+.zakaz_div button {
+  width: 195px;
+  height: 54px;
+  border-radius: 9px;
+  border: none;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  color: rgba(255, 255, 255, 1);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
 }
+.cards_alibaba {
+  background-color: rgba(255, 255, 255, 1);
+  width: 570px;
+  height: 517px;
+  border-radius: 15px;
+}
+.cards_result {
+  width: 100%;
+  height: 160px;
+  background-color: rgba(243, 241, 254, 1);
+  margin-top: 20px;
+}
+.sections_cards h1 {
+  font-family: Manrope;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  padding-bottom: 40px;
+}
+.cards_alibaba img:first-child {
+  width: 150px;
+  height: 112px;
+  padding-left: 20px;
+}
+.cards_alibaba h5 {
+  width: 508px;
+  height: 78px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  padding-left: 20px;
+}
+.cards_result h3 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  padding: 20px 0px 10px 20px;
+}
+.cards_result_stats{
+    display: flex;
+    padding-left: 20px;
+}
+cards_result_descriptions
