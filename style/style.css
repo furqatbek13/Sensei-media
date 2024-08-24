@@ -235,42 +235,42 @@ footer {
   border: 1px solid #9021ac;
   transition: all 0.3s linear;
 }
-.footer_list{
-    padding-top: 50px;
+.footer_list {
+  padding-top: 50px;
 }
-.footer_list h1{
-    font-family: Manrope;
-font-size: 18px;
-font-weight: 600;
-line-height: 36px;
-text-align: left;
-color: rgb(45, 45, 45);
-padding-bottom: 13px;
-cursor: pointer;
+.footer_list h1 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: rgb(45, 45, 45);
+  padding-bottom: 13px;
+  cursor: pointer;
 }
-.footer_list p{
-    font-family: Manrope;
-font-size: 16px;
-font-weight: 400;
-line-height: 36px;
-text-align: left;
-color: rgb(45, 45, 45);
-cursor: pointer;
+.footer_list p {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: rgb(45, 45, 45);
+  cursor: pointer;
 }
 .footer_bottom {
-    background-color: rgba(45, 45, 45, 1);
-    width: 100;
-    height: 40px;
+  background-color: rgba(45, 45, 45, 1);
+  width: 100;
+  height: 40px;
 }
-.footer_bottom p{
-    text-align: center;
-    font-family: Manrope;
-font-size: 14px;
-font-weight: 400;
-line-height: 36px;
-color: rgba(255, 255, 255, 1);
+.footer_bottom p {
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
 }
-.foot{
-    display: flex;
-    justify-content: space-between;
+.foot {
+  display: flex;
+  justify-content: space-between;
 }
