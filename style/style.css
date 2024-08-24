@@ -9,6 +9,7 @@
 }
 .flex {
   display: flex;
+  gap: 50px;
 }
 body {
   background-color: rgba(232, 232, 232, 0.733);
@@ -104,7 +105,7 @@ body {
 }
 .cards_alibaba {
   background-color: rgba(255, 255, 255, 1);
-  width: 570px;
+  width: 770px;
   height: 517px;
   border-radius: 15px;
 }
@@ -124,8 +125,8 @@ body {
   padding-bottom: 40px;
 }
 .cards_alibaba img:first-child {
-  width: 150px;
-  height: 112px;
+  width: 190px;
+  height: 120px;
   padding-left: 20px;
 }
 .cards_alibaba h5 {
@@ -152,4 +153,32 @@ body {
     display: flex;
     padding-left: 20px;
 }
-cards_result_descriptions
+.cards_result_descriptions h4{
+    font-family: Manrope;
+font-size: 18px;
+font-weight: 800;
+line-height: 26px;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+}
+.cards_result_descriptions p{
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+}
+.cards_sistema{
+    padding: 24px 20px;
+}
+.cards_sistema h3{
+font-family: Manrope;
+font-size: 18px;
+font-weight: 800;
+line-height: 26px;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+padding-bottom: 13px;
+
+}
