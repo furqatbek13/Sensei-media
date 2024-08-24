@@ -73,6 +73,7 @@ body {
   text-align: left;
   color: rgba(51, 51, 51, 1);
   margin-bottom: 20px;
+  resize: none;
 }
 .zakaz_div .checkbox {
   width: 22px;
@@ -102,6 +103,13 @@ body {
   font-size: 16px;
   font-weight: 600;
   line-height: 26px;
+  cursor: pointer;
+}
+.zakaz_div button:hover {
+  background: transparent;
+  color: #9021ac;
+  border: 1px solid #9021ac;
+  transition: all 0.3s linear;
 }
 .cards_alibaba {
   background-color: rgba(255, 255, 255, 1);
@@ -115,6 +123,9 @@ body {
   background-color: rgba(243, 241, 254, 1);
   margin-top: 20px;
 }
+.sections_cards {
+  margin-bottom: 90px;
+}
 .sections_cards h1 {
   font-family: Manrope;
   font-size: 38px;
@@ -126,7 +137,7 @@ body {
 }
 .cards_alibaba img:first-child {
   width: 190px;
-  height: 120px;
+  height: 100px;
   padding-left: 20px;
 }
 .cards_alibaba h5 {
@@ -149,36 +160,117 @@ body {
   color: rgba(51, 51, 51, 1);
   padding: 20px 0px 10px 20px;
 }
-.cards_result_stats{
-    display: flex;
-    padding-left: 20px;
+.cards_result_stats {
+  display: flex;
+  padding-left: 20px;
 }
-.cards_result_descriptions h4{
+.cards_result_descriptions h4 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+.cards_result_descriptions p {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+.cards_sistema {
+  padding: 24px 20px;
+}
+.cards_sistema h3 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  padding-bottom: 13px;
+}
+footer {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 321px;
+}
+.footer_div {
+  padding: 50px 0px;
+}
+.footer_div p {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 166px;
+  height: 48px;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 22px;
+  margin-left: 20px;
+}
+.footer_div button {
+  width: 205px;
+  height: 54px;
+  top: 3063px;
+  left: 115px;
+  gap: 0px;
+  border-radius: 9px;
+  border: none;
+  background: linear-gradient(115.11deg, #9021ac 16.38%, #c8459f 84.56%);
+  cursor: pointer;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 20px;
+}
+.footer_div button:hover {
+  background: transparent;
+  color: #9021ac;
+  border: 1px solid #9021ac;
+  transition: all 0.3s linear;
+}
+.footer_list{
+    padding-top: 50px;
+}
+.footer_list h1{
     font-family: Manrope;
 font-size: 18px;
-font-weight: 800;
-line-height: 26px;
+font-weight: 600;
+line-height: 36px;
 text-align: left;
-color: rgba(51, 51, 51, 1);
+color: rgb(45, 45, 45);
+padding-bottom: 13px;
+cursor: pointer;
 }
-.cards_result_descriptions p{
+.footer_list p{
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+color: rgb(45, 45, 45);
+cursor: pointer;
+}
+.footer_bottom {
+    background-color: rgba(45, 45, 45, 1);
+    width: 100;
+    height: 40px;
+}
+.footer_bottom p{
+    text-align: center;
     font-family: Manrope;
 font-size: 14px;
 font-weight: 400;
-line-height: 26px;
-text-align: left;
-color: rgba(51, 51, 51, 1);
+line-height: 36px;
+color: rgba(255, 255, 255, 1);
 }
-.cards_sistema{
-    padding: 24px 20px;
-}
-.cards_sistema h3{
-font-family: Manrope;
-font-size: 18px;
-font-weight: 800;
-line-height: 26px;
-text-align: left;
-color: rgba(51, 51, 51, 1);
-padding-bottom: 13px;
-
+.foot{
+    display: flex;
+    justify-content: space-between;
 }
