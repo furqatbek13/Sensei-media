@@ -27,6 +27,7 @@ a{
   gap: 30px;
   justify-content: space-between;
   margin-top: 100px;
+  background-color: #F7F6FF;
 }
 .zakaz_div h1 {
   width: 629px;
@@ -63,6 +64,7 @@ a{
   line-height: 26px;
   text-align: left;
   color: rgba(51, 51, 51, 1);
+  background-color: rgb(255, 255, 255);
 }
 .zakaz_div input:nth-child(1) {
   margin-right: 13px;
