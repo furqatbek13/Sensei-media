@@ -240,6 +240,7 @@ background-color: #fff;
     margin-top: 35px;
     margin-left: 53px;
     display: flex;
+    justify-content: space-between;
   }
   .h1_and_span {
     width: 135px;
