@@ -13,13 +13,20 @@
   gap: 50px;
 }
 body {
-  background-color: rgba(232, 232, 232, 0.733);
+  background-color: #F7F6FF;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
 }
 .section_zakaz {
   padding: 0px 0px 100px 30px;
   display: flex;
   gap: 30px;
   justify-content: space-between;
+  margin-top: 100px;
 }
 .zakaz_div h1 {
   width: 629px;
