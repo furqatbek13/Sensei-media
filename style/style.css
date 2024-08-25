@@ -122,7 +122,7 @@ a{
   transition: all 0.3s linear;
 }
 .cards_alibaba {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white;
   width: 770px;
   height: 517px;
   border-radius: 15px;
@@ -135,6 +135,7 @@ a{
 }
 .sections_cards {
   margin-bottom: 90px;
+  background-color: #fbfbfbc9;
 }
 .sections_cards h1 {
   font-family: Manrope;
