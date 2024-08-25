@@ -14,15 +14,17 @@ z-index: 100;
 background-color: #fff;
 }
 .head{
-    width: 1187px;
+    width: 1440px;
     height: 70px;
     align-items: center;
-    display: flex;
+    display: flex;  
+    justify-content: space-between;
 }    
 
 .container {
-    width: 1187px;
+    width: 1440px;
     background-color: white;
+    margin: auto;
   }
   .letter_and_img_both_head {
     width: 325px;
@@ -379,13 +381,14 @@ background-color: #fff;
     height: 542px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 76px;
   }
   .section_3_cont {
     width: 1170px;
     height: 542px;
     background-color: #f7f6ff;
+    
   }
   .section_3_cont h2 {
     width: 274px;
